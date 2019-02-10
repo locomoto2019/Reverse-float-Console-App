@@ -18,15 +18,15 @@ namespace ConsoleApp1
         static string Reverse2(string str)
         {
             int strLen = str.Length, elem = strLen - 1;
-            char[] charA = new char[strLen];
+            char[] charArray = new char[strLen];
 
             for (int i = 0; i < strLen; i++)
             {
-                charA[elem] = str[i];
+                charArray[elem] = str[i];
                 elem--;
             }
 
-            return new string(charA);
+            return new string(charArray);
         }
 
         static string Reverse1(string str)
